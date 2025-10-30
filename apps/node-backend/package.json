@@ -14,7 +14,8 @@
   "packageManager": "pnpm@10.18.3",
   "dependencies": {
     "@impera/shared": "workspace:*",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/express": "^5.0.5",

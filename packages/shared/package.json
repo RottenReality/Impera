@@ -6,14 +6,5 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore"
-  },
-  "lint-staged": {
-  "*.{ts,tsx,js,jsx}": [
-    "pnpm lint --fix",
-    "pnpm format"
-  ],
-  "*.{json,md}": [
-    "pnpm format"
-  ]
-}
+  }
 }

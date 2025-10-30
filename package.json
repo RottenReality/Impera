@@ -18,5 +18,14 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.6",
     "prettier": "^3.6.2"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "pnpm lint --fix",
+      "pnpm format"
+    ],
+    "*.{json,md}": [
+      "pnpm format"
+    ]
   }
 }
